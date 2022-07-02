@@ -1,0 +1,8 @@
+{
+  "titan_transformation": {
+  	"category": "players",
+  	"subtitle": "titanshiftersmod.titan_transformation",
+    "sounds": [ 
+    	"titanshiftersmod:titan_transformation" ]
+  }
+}

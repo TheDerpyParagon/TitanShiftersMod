@@ -1,0 +1,24 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+[[mods]] #mandatory
+modId="titanshiftersmod" #mandatory
+version="1.16.5-0.0.1" #mandatory
+displayName="Titan Shifters Mod" #mandatory
+logoFile="examplemod.png" #optional
+credits="Titan Shifters Mod by DerpyZombie" #optional
+description='''
+Mod made by DerpyZombie
+'''
+[[dependencies.titanshiftersmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.titanshiftersmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

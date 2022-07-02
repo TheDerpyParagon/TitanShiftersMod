@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "S#S",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dragon_breath"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "titanshiftersmod:titan_spinal_fluid"
+  }
+}
